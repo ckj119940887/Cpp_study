@@ -19,8 +19,8 @@ const_cast<T>(expr):移除对象的常量性，这里的对象指的是指针或
 static_cast<T>(expr):隐式转换，完成算术类型的强制转换，可以将void*指针转换为任一类型的指针。
                      可以将基类指针转换成派生类指针。
 reinterpret_cast<T>(expr):将数据以二进制形式重新解释。
-dynamic_cast<T>(expr) : 执行安全向下转型操作，支持运行时识别指针或所指向的对象
-                        唯一一个无法用旧式转型替换的
+dynamic_cast<T>(expr) : 执行安全向下转型操作，支持运行时识别指针或所指向的对象。
+                        唯一一个无法用旧式转型替换的。
 */
 
 void func(int& x) {

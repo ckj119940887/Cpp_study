@@ -40,5 +40,7 @@ int main(int argc, char ** args) {
     int * const *p4 = &c;
     */
 
+    // const int * const p = &n; //*p3是常量，p3也是常量
+
     return 0;
 }
